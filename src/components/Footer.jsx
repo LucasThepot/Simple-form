@@ -1,4 +1,4 @@
-const Footer = () => {
+const Footer = (event) => {
   return (
     <div className="footerstyle">
       <p>

@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 
-const Formulaire = () => {
+const Formulaire = (event) => {
   return (
     <div className="app">
       <h1>Create account</h1>
