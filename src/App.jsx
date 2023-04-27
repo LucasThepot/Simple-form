@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Formulaire from "./components/Formulaire";
 import Footer from "./components/Footer";
+import Results from "./components/Results";
 
 // Font Awesome //
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -50,7 +51,7 @@ function App() {
     // Faire une requête à mon back pour créer un User
   };
   return (
-    <>
+    <div className="miseEnPage">
       <Formulaire
         handleSubmit={handleSubmit}
         email={email}
@@ -64,7 +65,7 @@ function App() {
         errorMessage={errorMessage}
       />
       <Footer />
-    </>
+    </div>
   );
 }
 

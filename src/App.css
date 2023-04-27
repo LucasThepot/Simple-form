@@ -21,7 +21,9 @@
   margin-bottom: 20px;
   height: 45px;
   width: 300px;
+  background-color: whitesmoke;
   border-radius: 7px;
+  border: 1px solid rgb(189, 189, 189);
 }
 
 .fieldDescription {
@@ -29,10 +31,28 @@
   flex-direction: column;
 }
 
-.footerstyle.footerstyle p {
+footer {
   font-size: 16px;
 }
 
 .footerstyle span {
+  font-weight: bold;
+}
+
+.miseEnPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.buttondesign {
+  height: 45px;
+  width: 307px;
+  border-radius: 7px;
+  margin-top: 25px;
+  background-color: #5c47d3;
+  color: white;
+  font-size: 15px;
   font-weight: bold;
 }

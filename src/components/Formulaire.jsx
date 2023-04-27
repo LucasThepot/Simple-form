@@ -52,7 +52,9 @@ const Formulaire = (props) => {
         </div>
         {/* Cliquer sur ce bouton déclenche le onSubmit du formulaire */}
         {/* <input type="submit" value="Register" /> */}
-        <button type="submit">Register</button>
+        <button className="buttondesign" type="submit">
+          Register
+        </button>
       </form>
     </div>
   );
