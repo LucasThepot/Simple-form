@@ -17,6 +17,13 @@
   font-weight: bold;
 }
 
+.app input {
+  margin-bottom: 20px;
+  height: 45px;
+  width: 300px;
+  border-radius: 7px;
+}
+
 .fieldDescription {
   display: flex;
   flex-direction: column;

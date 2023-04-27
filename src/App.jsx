@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Formulaire from "./components/Formulaire";
+import Footer from "./components/Footer";
 
 // Font Awesome //
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -48,7 +49,23 @@ function App() {
 
     // Faire une requête à mon back pour créer un User
   };
-  return <Formulaire></Formulaire>;
+  return (
+    <>
+      <Formulaire
+        handleSubmit={handleSubmit}
+        email={email}
+        setEmail={setEmail}
+        name={name}
+        setName={setName}
+        password={password}
+        confirmPassword={confirmPassword}
+        handlePasswordChange={handlePasswordChange}
+        handleConfirmPasswordChange={handleConfirmPasswordChange}
+        errorMessage={errorMessage}
+      />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
